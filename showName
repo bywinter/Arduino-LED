@@ -10,13 +10,13 @@ void setup() {
   lcd.begin(16, 2);
   // Print a message to the LCD.
   lcd.setCursor(4,0);
-  lcd.print("WEN TUO");
+  lcd.print("YOUR NAME");
 }
 
 void loop() {
   // set the cursor to column 0, line 1
   // (note: line 1 is the second row, since counting begins with 0):
   lcd.setCursor(4, 1);
-  lcd.print("2016344215");
+  lcd.print("2016xxxx");
 
 }
